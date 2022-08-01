@@ -1,4 +1,4 @@
-# folder structure
+# Directory(Folder) Structure
 
 ```
 kimcode/
@@ -21,9 +21,6 @@ jocode/
 ├─ main.html
 ```
 
-1. 본인 명의의 디렉토리(폴더)를 만든다.
-2. data, style 디렉토리와 그에 맞는 파일을 만든다.
-
 # JUSTGRAM UI Mission
 
 > 💡 순서에 맞게 vanilla 환경에서 스타벅스 클론 프로젝트에 필요한 UI를 생성하는 과제입니다.
@@ -37,7 +34,9 @@ jocode/
 ### 디자인
 구현해야할 로그인 페이지는 실제 instagram 로그인 부분과 유사합니다.
 - 로그인 페이지 이미지
-    
+
+<img width="366" alt="login" src="https://user-images.githubusercontent.com/20152376/182086903-f49b04a3-baf5-48a9-b265-e67231534c24.png">
+
 - instagram 사이트 로그인 페이지를 참고하여 로그인 영역만 개발합니다.
 - 아이콘은 flaticon 사이트를 이용해 다운받아 사용해 주세요.
     - 🖇️ [아이콘 링크](https://www.flaticon.com/free-icon/instagram_1384031?related_item_id=1384031&term=instagram)
@@ -61,14 +60,11 @@ HTML 작성 단계가 끝났다면, css 파일을 작성하여주세요.
 ## [Mission 2] ID, PW 입력 시 로그인 버튼 활성화 기능
 
 ### 관련파일
-
 - HTML: login.html
 - JS: js/login.js
 
 ### 입력 이벤트 등록
-
 Input 요소(Element)에 이벤트를 등록하여 글자 변화를 감지하게 만들어주세요.
-
 - 요소에 addEventListener로 이벤트 등록
 - ID 입력칸과(AND) PW 입력칸에 글자가 하나라도 들어가면 로그인 버튼 활성화
 
@@ -81,6 +77,9 @@ Input 요소(Element)에 이벤트를 등록하여 글자 변화를 감지하게
 ### 디자인
 구현해야할 메인 페이지는 실제 instagram 메인페이지와 거의 비슷한 디자인입니다.
 - 디자인 이미지
+
+<img width="834" alt="main" src="https://user-images.githubusercontent.com/20152376/182087141-4c99dc28-195a-462e-ad91-d160a807c4a7.png">
+
 - 우측 메뉴 아이콘은 아래 주소를 사용해주세요.
     - 탐색: [https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png](https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png)
     - 하트: [https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png](https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png)
@@ -178,8 +177,9 @@ HTML 작성 단계가 끝났으면 이제 css 파일을 작성하여주세요.
 ### 디자인 이미지
 사진과 데이터가 달라도 괜찮습니다.
 
-![90870020-fc605e00-e3d3-11ea-9e85-f73e16941710.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d77f496-6c30-4a1b-bc8e-7cd2cd21e5c8/90870020-fc605e00-e3d3-11ea-9e85-f73e16941710.png)
+![90870020-fc605e00-e3d3-11ea-9e85-f73e16941710](https://user-images.githubusercontent.com/20152376/182087489-68b872b0-4cc6-40f2-8feb-787e8a689f4d.png)
 
+### ui 동적 처리
 - profiles.json 데이터를 fetch 하여 검색이 가능하게 만들어주세요.
 
 ## [Mission 9] nav 프로필 사진 클릭 시 메뉴 박스 생성
@@ -190,7 +190,7 @@ HTML 작성 단계가 끝났으면 이제 css 파일을 작성하여주세요.
 - JS: js/main.js
 
 ### 디자인 이미지
-![90870746-fae36580-e3d4-11ea-929d-135d86f87e60.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d602cf49-5736-40a6-80b0-3440780e8983/90870746-fae36580-e3d4-11ea-929d-135d86f87e60.png)
+![90870746-fae36580-e3d4-11ea-929d-135d86f87e60](https://user-images.githubusercontent.com/20152376/182087455-c9f38d2b-eb4f-4280-b105-44676a82a718.png)
 
 ### 프로필 버튼, 저장됨 버튼, 설정 버튼
 - 클릭 시 아무 일도 일어나지 않아도 괜찮습니다.
